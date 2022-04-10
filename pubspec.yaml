@@ -1,10 +1,10 @@
 name: tsacdop
 description: An open source podcast player.
 
-version: 0.6.0+48
+version: 1.0.0+1
 
 environment:
-  sdk: ">=2.6.0 <3.0.0"
+  sdk: ">=2.8.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -30,7 +30,8 @@ dependencies:
   fluttertoast: ^4.0.1
   flutter_isolate: ^2.0.0
   flutter_linkify: ^4.1.0
-  flutter_file_dialog: ^2.1.1
+  flutter_file_dialog: 2.1.1
+  flutter_plugin_android_lifecycle: 2.0.0 
   flare_flutter: ^3.0.2
   fl_chart: ^0.36.4
   line_icons: ^2.0.1
@@ -46,7 +47,7 @@ dependencies:
   sqflite: ^2.0.0+3
   state_notifier: ^0.7.0
   tuple: ^2.0.0
-  url_launcher: ^6.0.3
+  url_launcher: 6.0.3
   uuid: ^3.0.4
   workmanager: ^0.2.3
   wc_flutter_share: ^0.4.0
